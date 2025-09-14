@@ -7,13 +7,14 @@ The system classifies MRI images into **Tumor** or **No Tumor**, providing accur
 ---
 
 ## 📊 Dataset
-- Source: [Kaggle – Brain Tumor MRI Dataset by Masoud Nickparvar](https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset) :contentReference[oaicite:4]{index=4}  
-- Download size: ~155.8 MB :contentReference[oaicite:5]{index=5}  
-- Classes: **Tumor**, **No Tumor** :contentReference[oaicite:6]{index=6}  
-- Format: MRI images (JPEG/PNG) :contentReference[oaicite:7]{index=7}  
-- Usage: Suitable for binary classification tasks :contentReference[oaicite:8]{index=8}  
+- Source: [Kaggle – Brain Tumor MRI Dataset by Masoud Nickparvar](https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset)  
+- Subsets:  
+  - [Training set (~131 MB)](https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset?select=Training)  
+  - [Testing set (~24 MB)](https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset?select=Testing)  
+- Classes: **Tumor**, **No Tumor**  
+- Format: MRI brain scan images (JPEG/PNG)  
+- Task: Binary classification (detecting presence of brain tumor)  
 
----
 
 ## 🛠️ Tech Stack
 - **Python**  
